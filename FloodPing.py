@@ -62,7 +62,7 @@ def flood(ip_addr: str):
                   "\t Packet loss: " + str(packet_loss)[0:6] + " %" + "\t\t |"
 
         for i in range(100):
-            if i<int(packet_loss):
+            if i < int(packet_loss):
                 summary += "."
             else:
                 summary += " "
